@@ -33,5 +33,5 @@ app.use("/admin", adminRoutes);
 app.use(shopRoutes);
 //if we get this far we didn't match any routes so we deliver a 404 page
 app.use(errorController.get404);
-//* FROM HERE TO UNDERSTAND MORE CHECKOUT THE routes/admin.js FILE
+//* FROM HERE TO UNDERSTAND MORE CHECKOUT THE util/database.js FILE
 app.listen(3000);
