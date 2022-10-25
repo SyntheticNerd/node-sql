@@ -1,6 +1,10 @@
 const path = require("path");
 
-.00
+const express = require("express");
+
+const adminController = require("../controllers/admin");
+
+const router = express.Router();
 
 //* Each of these router methods specify what operation we want to perform given the specified route.method
 //router is a method provided by express and we can call methods like get, post, delete, patch, or put
