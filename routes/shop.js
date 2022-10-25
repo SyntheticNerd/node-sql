@@ -9,7 +9,8 @@ const router = express.Router();
 router.get('/', shopController.getIndex);
 
 router.get('/products', shopController.getProducts);
-//! BUG Part of the bug this called the controller for this rout
+
+//! BUG Part of the bug this called the controller for this route
 router.get('/products/:productId', shopController.getProduct);
 
 router.get('/cart', shopController.getCart);

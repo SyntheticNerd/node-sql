@@ -9,6 +9,7 @@ const errorController = require("./controllers/error");
 const adminRoutes = require("./routes/admin");
 const shopRoutes = require("./routes/shop");
 
+// Starting my  express server
 const app = express();
 
 // set what engine I will use to parse my html before serving
